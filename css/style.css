@@ -1,61 +1,69 @@
-body{
+body {
   background-color: #0f0;
 }
 
-.container  {
-  width:90%;
-  min-width:365px;
-  background-color: #fff;
-  height:auto;
+.container {
+  width: 90%;
+  background-color: #ffffff;
+  height: auto;
 }
 
 header {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
-header .header-l{
-/*  float:left; */
-  margin:0;
-  padding:0;
-
+header .header-l {
+  /*  float:left; */
+  margin: 0;
+  padding: 0;
 }
 
-header .header-r{
-?/*   float:right;
+header .header-r {
+  /*   float:right;
   min-height:183px; */
-
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
-header .site-titles {
-}
 header h1, header h3 {
-  margin:0;
+  margin: 0;
   padding: 0 0 0 10px;
 }
 
 .header .header-adv {
-/*  width:100%; */
+  /*  width:100%; */
 }
 
-header img{
-  width:100%; /*
+header img {
+  width: 100%;
+  /*
   min-width:365px;
   height:auto;
   min-height:183px;
   margin:auto; */
 }
 
-.container>.row {
-  background-color: rgb(13, 190, 132);
-  min-height:75px;
-  Height:auto;
+.container > .row {
+  background-color: #0dbe84;
+  min-height: 75px;
+  Height: auto;
 }
 
 p.scroll-01 {
   width: 100%;
-  margin: 0 ;
+  margin: 0;
   padding: 0;
+}
+
+.container.main {
+  padding: 0;
+}
+
+.main-content .main-l {
+  background: #07bff9;
+}
+
+.main-r {
+  background: #9501fc;
 }
