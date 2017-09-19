@@ -1,5 +1,7 @@
 body {
   background-color: #0f0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -44,26 +46,40 @@ header img {
   margin:auto; */
 }
 
-.container > .row {
+.container.content {
+  padding:0;
+}
+.creeper{
   background-color: #0dbe84;
   min-height: 75px;
-  Height: auto;
+  height: auto;
+  margin:0;
 }
 
 p.scroll-01 {
-  width: 100%;
   margin: 0;
   padding: 0;
 }
 
-.container.main {
-  padding: 0;
-}
 
-.main-content .main-l {
-  background: #07bff9;
+.content.features {
 }
+.row .main-l{
+  width: 100%;
+  background: rgb(250, 202, 0) ;
+}
+.row .main-r{
+  width: 100%;
+  background: rgb(249, 17, 143);
+}
+.main-r p{
+  margin:0;padding:.5rem;
+}
+.main-l p{
+  margin:0;padding:.5rem;
 
-.main-r {
-  background: #9501fc;
+}
+footer{
+  min-height: 5rem;
+  background: rgb(33, 29, 32);
 }
