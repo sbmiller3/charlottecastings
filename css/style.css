@@ -79,6 +79,12 @@ p.scroll-01 {
   margin:0;padding:.5rem;
 
 }
+.row .about{
+  background:rgb(11, 212, 147);
+}
+.row .social{
+  background:rgb(181, 116, 251);
+}
 footer{
   min-height: 5rem;
   background: rgb(33, 29, 32);
