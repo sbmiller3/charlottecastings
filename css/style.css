@@ -90,3 +90,9 @@ footer{
   min-height: 5rem;
   background: rgb(33, 29, 32);
 }
+footer .container{
+  background: rgb(33, 29, 32);
+}
+footer .links{
+  margin:1em auto;
+}
